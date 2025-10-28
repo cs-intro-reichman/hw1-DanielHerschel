@@ -18,10 +18,6 @@ public class NumWords {
         int tens = (number / 10) % 10;
         int hundreds = number / 100;
 
-        if (hundreds > 9) {
-            hundreds = hundreds % 10;
-        }
-
         System.out.printf("%d hundreds, %d tens, and %d ones.%n", hundreds, tens, ones);
 	}
 }

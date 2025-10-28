@@ -7,10 +7,11 @@ public class FVCalc {
             return;
         }
 
-        int currentAmount, annualInterestRate, yearSpan;
+        int currentAmount, yearSpan;
+        double annualInterestRate;
         try {
             currentAmount = Integer.parseInt(args[0]);
-            annualInterestRate = Integer.parseInt(args[1]);
+            annualInterestRate = Double.parseDouble(args[1]);
             yearSpan = Integer.parseInt(args[2]);
         } catch (NumberFormatException e) {
             System.out.println("Invalid input: " + e.getMessage());
