@@ -1,3 +1,14 @@
+/*
+
+feedback:
+
+Great work!
+
+Yam
+
+*/
+
+
 // Generates three integer random numbers in a given range,
 // and prints them in increasing order.
 public class Ascend {
@@ -26,3 +37,4 @@ public class Ascend {
         System.out.printf("%d %d %d \n%d %d %d%n", a, b, c, min, mid, max);
 	}
 }
+
